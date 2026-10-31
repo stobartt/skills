@@ -16,9 +16,29 @@ This skill covers the content and wording of product text in any format. Adapt t
 - If an important claim cannot be verified, flag the gap in your response. A requested draft may include a clear verification note. Do not fill gaps with invented promises or facts.
 - Preserve numbers, units, conditions, exceptions, causal relationships, and degrees of certainty when editing. Distinguish requirements, recommendations, and possibilities. Correct factual errors against a source and report them separately from style changes.
 
+## Interpret, then compose
+
+Treat the user's wording and source text as evidence of what they mean. Be faithful to the intended message, the facts, and explicit constraints; choose the phrasing and structure for the reader. Preserve exact wording when it is itself required, such as quotations, identifiers, interface labels, and agreed terminology.
+
+Before drafting, state privately what the reader needs to understand and how the relevant facts connect. Resolve shorthand, figurative language, and implied relationships from the surrounding context. If plausible interpretations would change the substance, check the source or ask a focused question. Otherwise, use the ordinary contextual meaning.
+
+Compose the passage from that understanding. Reorder facts, combine fragments, and explain a connection when it helps the reader follow the thought. For a request to rewrite or improve a passage, reassess the whole passage; a narrow correction can stay narrow. If the result merely substitutes synonyms while preserving a fragmented or confusing explanation, rewrite it again from its main point.
+
+Exercise editorial judgment about precision. "The app remembers your settings" is a normal description of persistence; it needs no explanation that software has no human memory. Keep useful shorthand, familiar expressions, and the author's voice when readers will understand them correctly. Add a qualification where it prevents a credible misunderstanding that matters to this audience. Place implementation detail where it helps a decision or action. One explanation of a demo's scope can cover its screens.
+
+Examples of applying this judgment:
+
+| Context | Literal or mechanical treatment | Writing for the reader |
+| --- | --- | --- |
+| Saved document versions can be opened from History; explain why an editor would use it | "The product supports saved version selection." | "Open an earlier version in History to recover your work." |
+| An import accepts valid rows and lets the reader correct and retry failed rows | "Import, validation, error display, and retry are available." | "Import your file. If some rows contain errors, correct them and try those rows again." |
+| The user asks to shorten a warning; cancellation permanently discards the result | Shorten it to "Cancel?" | "Cancel and discard the result? This cannot be undone." |
+
+Read the result as a whole: does it convey the intended message, make the relationships clear, and leave the reader with the right expectation or next step? Remove details that serve only to demonstrate the writer's technical accuracy. Keep material conditions close to the claim they qualify. Natural writing comes from a clear thought, an appropriate voice, and useful detail; forced informality or decorative personality adds no clarity.
+
 ## Meaning before wording
 
-For each substantive claim, identify the subject, the asserted property or action, its scope and conditions, and the supporting evidence. This is a drafting check, not a template to expose to the reader.
+Check substantive claims in the intended context of the passage: who or what they describe, their scope and conditions, and the supporting evidence. Judge the understanding they give the reader, rather than isolated words stripped of context. This is a drafting check, not a template to expose to the reader.
 
 - **Attribute properties to the right subject.** Product purpose, an example, a component, a repository, a deployment, and a delivery channel are different things. A browser-only demo does not make its design system a local-only product. Keep a qualifier when it genuinely defines the subject, as in a local development environment.
 - **State the actual scope.** Qualifiers such as "local", "complete", "automatic", "secure", and "supported" need a clear referent. Identify what is stored, where it is stored, which operation is automatic, or which cases were verified. Avoid turning a component property or temporary limitation into a claim about the whole product.
@@ -35,16 +55,6 @@ Use concrete wording instead of an ambiguous shortcut. These examples assume the
 | A prototype accepts a fixed verification code | "Code sent. Check your messages." | "Use the sample code 123456. This prototype does not send messages." |
 
 Read the revision without the surrounding conversation. If a reasonable reader could infer a broader capability, guarantee, cause, or completion state than the evidence supports, narrow or split the sentence. When correcting a recurring claim, check related descriptions, instructions, UI messages, and summaries for the same mismatch. Search terms locate candidates; context determines whether a correction is needed.
-
-## A coherent explanation
-
-Work out what the reader needs to understand before composing sentences. Explain the product from that understanding; the order of source facts, code modules, or feature labels need not become the structure of the text.
-
-Give the passage a line of thought: establish the main point, then add the reason, example, condition, or next step that helps the reader follow it. Use familiar language and connections between ideas. A collection of individually accurate sentences can still leave the reader without an explanation.
-
-Choose detail for its value to this reader. Put implementation details and limitations where they affect understanding, a decision, or an action. One clear statement about a demo can establish context for its screens; repeating that qualification in every label makes the interface harder to use. Keep material conditions close to the claim they qualify.
-
-Read the whole passage as an informed colleague would. Replace mechanical lists of properties, unnecessary contrasts, repeated disclaimers, and polished but empty phrases with a connected explanation. Preserve the author's voice and the meaning; do not manufacture informality or add personality as decoration.
 
 ## Product copy
 
@@ -106,7 +116,7 @@ Keep "may" and the condition: removing either would change the technical claim.
 
 ## Review and delivery
 
-Do the work and check it yourself. After drafting, check facts and completeness first, then structure and wording:
+Do the work and check it yourself. Read the draft as its intended audience first, then verify the facts and refine the wording. If you have preserved the source's phrasing but lost its purpose, rewrite the passage before polishing sentences:
 
 - Can the reader understand the point and its significance without context known only to the author? An email may refer to a shared conversation. If an action is expected, is it clear? Instructions must include necessary prerequisites and a way to verify the result.
 - Are important conditions, exceptions, and distinctions between requirements and recommendations intact? Examples must match the described behavior.
