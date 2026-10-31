@@ -16,6 +16,36 @@ This skill covers the content and wording of product text in any format. Adapt t
 - If an important claim cannot be verified, flag the gap in your response. A requested draft may include a clear verification note. Do not fill gaps with invented promises or facts.
 - Preserve numbers, units, conditions, exceptions, causal relationships, and degrees of certainty when editing. Distinguish requirements, recommendations, and possibilities. Correct factual errors against a source and report them separately from style changes.
 
+## Meaning before wording
+
+For each substantive claim, identify the subject, the asserted property or action, its scope and conditions, and the supporting evidence. This is a drafting check, not a template to expose to the reader.
+
+- **Attribute properties to the right subject.** Product purpose, an example, a component, a repository, a deployment, and a delivery channel are different things. A browser-only demo does not make its design system a local-only product. Keep a qualifier when it genuinely defines the subject, as in a local development environment.
+- **State the actual scope.** Qualifiers such as "local", "complete", "automatic", "secure", and "supported" need a clear referent. Identify what is stored, where it is stored, which operation is automatic, or which cases were verified. Avoid turning a component property or temporary limitation into a claim about the whole product.
+- **Match outcomes to evidence.** An available capability, an initiated action, a completed action, and a confirmed user outcome require different wording. A queued request is not a delivered message; a successful component test does not establish product-wide reliability. Describe the mechanism or observed result when the broader benefit is unverified.
+- **Keep examples and intentions recognizable.** Sample figures are not measured results, a prepared response is not live analysis, and a prototype action is not a working integration. Name the boundary where it changes what the reader should expect or do; avoid repeating implementation notes throughout an interface.
+
+Use concrete wording instead of an ambiguous shortcut. These examples assume the stated behavior has been verified:
+
+| Verified situation | Misleading shortcut | Accurate wording |
+| --- | --- | --- |
+| A reusable design system has a browser-only demo | "A local design system" | "A design system for product interfaces. Its demo runs in the browser." |
+| Note files are encrypted; the editor decrypts them | "Text stays encrypted during editing" | "Note files remain encrypted on disk. The editor holds decrypted text in memory." |
+| Large report responses are retained for paging | "Reports are not stored" | "Reports are fetched on request; large responses are stored temporarily for paging." |
+| A prototype accepts a fixed verification code | "Code sent. Check your messages." | "Use the sample code 123456. This prototype does not send messages." |
+
+Read the revision without the surrounding conversation. If a reasonable reader could infer a broader capability, guarantee, cause, or completion state than the evidence supports, narrow or split the sentence. When correcting a recurring claim, check related descriptions, instructions, UI messages, and summaries for the same mismatch. Search terms locate candidates; context determines whether a correction is needed.
+
+## A coherent explanation
+
+Work out what the reader needs to understand before composing sentences. Explain the product from that understanding; the order of source facts, code modules, or feature labels need not become the structure of the text.
+
+Give the passage a line of thought: establish the main point, then add the reason, example, condition, or next step that helps the reader follow it. Use familiar language and connections between ideas. A collection of individually accurate sentences can still leave the reader without an explanation.
+
+Choose detail for its value to this reader. Put implementation details and limitations where they affect understanding, a decision, or an action. One clear statement about a demo can establish context for its screens; repeating that qualification in every label makes the interface harder to use. Keep material conditions close to the claim they qualify.
+
+Read the whole passage as an informed colleague would. Replace mechanical lists of properties, unnecessary contrasts, repeated disclaimers, and polished but empty phrases with a connected explanation. Preserve the author's voice and the meaning; do not manufacture informality or add personality as decoration.
+
 ## Product copy
 
 Connect product capabilities to the reader's task: what changes for them and why it matters. Include technical details when they help the reader understand the offer, assess it, or make a decision. Preserve the author's or brand's voice; adapt the tone to the situation and the relationship with the reader.
