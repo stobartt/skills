@@ -2,6 +2,7 @@
 
 | Skill | Purpose |
 | --- | --- |
-| [writing-for-humans](writing-for-humans/SKILL.md) | Write, edit, and review documentation and product copy, including presentations, pitches, emails, messages, and UI text. Remove bureaucratic language while preserving facts, constraints, and the author's voice. |
+| [writing-for-humans](writing-for-humans/SKILL.md) | Write and edit documentation and product copy while preserving facts and the author's voice. |
+| [user-friendly-interface](user-friendly-interface/SKILL.md) | Design clear interfaces around user tasks, hierarchy, density, flows, states, and platform adaptations. Candidate for collaborative review. |
 
-Each skill file contains its full instructions and sources. See the [project README](../README.md) for installation, usage, and updates.
+Each skill contains its instructions and sources. See the [project README](../README.md) for installation and usage.
