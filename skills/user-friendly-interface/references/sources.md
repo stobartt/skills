@@ -53,6 +53,7 @@ The sources below document product behavior. They do not establish that a partic
 
 ## Accessibility and color
 
+- Check that web controls expose their name, role, and applicable state or value, including changes after interaction. [WCAG 2.2, Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html)
 - [WCAG 2.2: Contrast minimum](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html): evaluate text against its actual background. Size and weight affect the applicable threshold; text contrast alone does not establish full accessibility.
 - [WCAG 2.2: Non-text contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html): necessary visual information that identifies a control, state, or graphic requires adequate contrast against adjacent colors. This does not require a high-contrast border around every card, button, or decorative separator.
 - [WCAG 2.2: Target size minimum](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html) and [Reflow](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html): use the actual criteria, scope, and exceptions. Web CSS-pixel requirements should not be copied blindly into television, native-mobile, or other platform units.

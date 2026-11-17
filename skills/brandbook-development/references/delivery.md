@@ -8,13 +8,13 @@ Preserve editable sources where available. Select output formats by content and 
 
 | Asset or use | Preparation decisions |
 | --- | --- |
-| Vector logo | Deliver actual vector paths and an editable source. A bitmap embedded in SVG remains a raster asset. Honor a vector-only scope throughout previews and downloads. |
+| Vector logo | Deliver vector artwork and its editable source. Keep native SVG shapes such as circles and rectangles unless the brief or output format calls for paths. For vector-only delivery, check previews and downloads for raster content, including embedded bitmaps. |
 | Raster relief, light, or texture | Retain a lossless master and required transparency. Export the requested web formats with enough resolution for target display density. |
 | Favicon | Select formats and dimensions supported by the target browsers. The guide's image format and the browser icon's format can differ. |
 | Installation, PWA, or store icon | Consult the target platform's current requirements for shape, safe area, background, dimensions, and transparency. |
 | Print | Use the agreed production process, color profile, dimensions, and printer specifications. Treat missing production values as unresolved; HEX alone does not determine a unique CMYK or Pantone equivalent. |
 
-Measure clear space from the visible contour, accounting for transparent padding in the file. If a diagram states a ratio or dimension, construct it from the same geometry as the rule; label a schematic illustration as such. For symbol-and-name combinations, define the relevant size relationship, spacing, alignment, and permitted arrangements in the project's units.
+Measure clear space from the edges specified for that logo variant in the brand's approved guide or annotated master. Account for any exclusions, such as a trademark symbol, and any clear space built into the file. When developing a new rule, choose a reference edge, such as the visible contour, and test the proposed spacing in a representative application. Use the same geometry for dimensioned diagrams and label schematic illustrations as such. For symbol-and-name combinations, define the relevant size relationship, spacing, alignment, and permitted arrangements in the project's units.
 
 Establish minimum sizes by inspecting the actual mark on its intended surface and show the claimed boundary size among the examples. Give delivered variants, including monochrome versions when present, a visible selection rule and representative use. Compare applicable theme variants side by side: each needs appropriate optical weight and contrast, which simple dimming or inversion may not preserve.
 

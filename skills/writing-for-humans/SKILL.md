@@ -36,10 +36,10 @@ These examples assume the stated behavior has been verified:
 
 | Verified situation | Misleading shortcut | Accurate wording |
 | --- | --- | --- |
-| A reusable design system has a browser-only demo | "A local design system" | "A design system for product interfaces. Its demo runs in the browser." |
-| Note files are encrypted; the editor decrypts them | "Text stays encrypted during editing" | "Note files remain encrypted on disk. The editor holds decrypted text in memory." |
-| Large report responses are retained for paging | "Reports are not stored" | "Reports are fetched on request; large responses are stored temporarily for paging." |
-| A prototype accepts a fixed verification code | "Code sent. Check your messages." | "Use the sample code 123456. This prototype does not send messages." |
+| A reusable design system for product interfaces has a browser-only demo | "A local design system" | "A design system for product interfaces. Its demo runs in the browser." |
+| The editor keeps note files encrypted on disk and decrypts their text in memory | "Text stays encrypted during editing" | "Note files remain encrypted on disk. The editor holds decrypted text in memory." |
+| Large report responses are retained for paging | "Reports are not stored" | "Large report responses are stored so you can read them one page at a time." |
+| A prototype accepts the sample code 123456 and sends no messages | "Code sent. Check your messages." | "Use the sample code 123456. This prototype does not send messages." |
 
 Proceed with supported claims and explicitly identified gaps. Flag an important claim that cannot be verified; a requested draft may include a clear verification note. When a mismatch recurs, check related descriptions, instructions, UI messages, and summaries within the requested scope. Search terms locate candidates; context determines whether a correction is needed.
 

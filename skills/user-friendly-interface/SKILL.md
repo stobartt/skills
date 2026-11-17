@@ -23,7 +23,9 @@ Choose the requested mode for each part of the task. Use the following sections 
 
 Identify the person, their goal, what they know, frequency of use, input method, environment, and successful outcome. Preserve established product constraints. For a small fix, investigate the affected interaction. Ask only about missing information that would materially change the decision, and label remaining assumptions.
 
-For an accessible existing product, inspect the rendered interface and walk through the affected task. Capture the relevant starting state when possible. With only screenshots or static mockups, assess visible composition and label behavioral conclusions as hypotheses. Use supplied flows or specifications for proposed behavior; request additional access only when a required conclusion or change depends on it. Completion claims must stay within the available evidence.
+When you can access the product, inspect the rendered interface and walk through the affected task. Capture the starting state when possible. During a review, use read-only interactions with live data. Exercise actions such as moving or deleting records only when their effects are confined to designated test data or an isolated copy. If only live data is available, report which transitions remain unverified.
+
+With only screenshots or static mockups, assess visible composition and label behavioral conclusions as hypotheses. Use supplied flows or specifications for proposed behavior. Request additional access only when a required conclusion or change depends on it.
 
 Interpret feedback through the underlying need. “Too empty” may mean disconnected controls; “too many lines” may mean competing boundaries. Distinguish the criticized variable—such as hue, lightness, saturation, area, or spacing—from a treatment the person wants to preserve. Establish the cause before proposing the smallest coherent correction within those constraints. Separate demonstrated defects from preferences.
 
@@ -72,7 +74,7 @@ Give each bounded workspace a clear scrolling model. Keep ordinary reading in th
 
 Preserve the task as available space changes. Base adaptation on the space left for the work after persistent navigation and supporting panes, not just the overall window. Reorder or sequence panels rather than shrinking the desktop composition. Retain selection, input, and return position. Check long content, localization, text enlargement, reading direction, safe areas, and the on-screen keyboard.
 
-Account for applicable input methods: pointer, keyboard, touch, remote, voice, and assistive technology. Required actions cannot depend on hover alone. Provide recognizable focus, predictable traversal, adequate targets, and alternatives to color-only meaning. Essential labels remain readable; truncated values have an accessible way to reveal the whole value.
+Account for applicable input methods: pointer, keyboard, touch, remote, voice, and assistive technology. Required actions cannot depend on hover alone. Provide recognizable focus, predictable traversal, adequate targets, and alternatives to color-only meaning. Give controls meaningful accessible names and appropriate roles. Expose their current state or value to assistive technology when applicable. Keep essential labels readable and provide an accessible way to reveal truncated values.
 
 Use the target platform's accessibility requirements and conventions. Measure contrast for the actual adjacent colors and states. Necessary control boundaries and meaningful graphics have different requirements from decorative separators. Perceptually uniform color tools help tune a palette but do not establish readability or accessibility by themselves. Avoid arbitrary visual thresholds presented as scientific guarantees.
 
